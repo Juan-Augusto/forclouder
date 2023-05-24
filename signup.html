@@ -28,10 +28,10 @@
       <div id="card">
         <div id="card-content">
           <div id="card-title">
-            <h2>ForClouder</h2>
+            <h2>Criar uma conta</h2>
             <div class="underline-title"></div>
           </div>
-          <form method="post" class="form" name="login">
+          <form method="post" class="form" name="signup">
             <label for="user-email" style="padding-top: 13px">
               &nbsp;Email
             </label>
@@ -55,7 +55,14 @@
               required
             />
             <div class="form-border"></div>
-            <input id="submit-btn" type="submit" value="LOGIN" class="" />
+
+            <input
+              id="submit-btn"
+              type="submit"
+              name="submit"
+              value="Criar"
+              class="signup-btn"
+            />
             <div class="loading-container">
               <div
                 class="spinner-border text-success loading"
@@ -63,7 +70,6 @@
                 id="loading-spinner"
               ></div>
             </div>
-            <a href="./signup.html" id="signup">Não tem uma conta ainda?</a>
           </form>
         </div>
       </div>
@@ -74,6 +80,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <script src="./signin.js"></script>
+    <script src="./signup.js"></script>
   </body>
 </html>
